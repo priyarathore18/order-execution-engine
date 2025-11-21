@@ -1,5 +1,5 @@
 
-# Order Execution Engine (Mock) - Deliverables Bundle
+# Order Execution Engine  - Deliverables Bundle
 
 This repository is a prepared deliverables package for the **Order Execution Engine** assignment. It contains the API, WebSocket updates, mock DEX routing (Raydium & Meteora), queueing with BullMQ, PostgreSQL schema, tests, Postman collection, Docker Compose, and demo recording script.
 
@@ -24,7 +24,7 @@ This repository is a prepared deliverables package for the **Order Execution Eng
 npm test
 ```
 
-## Design decisions (short)
+## Design decisions
 - Implemented **Market Order** (immediate execution) as mock engine for deterministic testing.
 - DEX routing simulates Raydium vs Meteora prices (2-5% variation) with realistic delays.
 - Single endpoint `/api/orders/execute` accepts POST and upgrades same connection to WebSocket for live status streaming.
